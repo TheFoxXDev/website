@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web4All - Offre et candidature</title>
+  <meta name="description" content="Consultez une offre de stage/alternance et postulez via un formulaire HTML5.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Web4All - Détail de l’offre</h1>
+      <nav aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="offre.html">Voir une offre</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="blocs">
+      <section class="bloc">
+        <h2>Stage - Assistant chef de chantier (H/F)</h2>
+        <p><strong>Lieu :</strong> Lyon</p>
+        <p><strong>Durée :</strong> 8 à 12 semaines</p>
+        <p><strong>Date :</strong> Avril 2026</p>
+
+        <h3>Missions</h3>
+        <ul>
+          <li>Aide au suivi du chantier</li>
+          <li>Participation sécurité / qualité</li>
+          <li>Organisation et préparation</li>
+        </ul>
+
+        <h3>Profil</h3>
+        <ul>
+          <li>Motivé</li>
+          <li>Esprit d’équipe</li>
+          <li>Intérêt pour le terrain</li>
+        </ul>
+      </section>
+
+      <section class="bloc">
+        <h2>Postuler</h2>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+          <div>
+            <label for="prenom">Prénom *</label>
+            <input id="prenom" name="prenom" type="text" required>
+          </div>
+
+          <div>
+            <label for="nom">Nom *</label>
+            <input id="nom" name="nom" type="text" required>
+          </div>
+
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div>
+            <label for="tel">Téléphone</label>
+            <input id="tel" name="tel" type="tel">
+          </div>
+
+          <div>
+            <label for="cv">CV (pdf/doc) *</label>
+            <input id="cv" name="cv" type="file" required accept=".pdf,.doc,.docx">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+
+          <div>
+            <input id="ok" name="ok" type="checkbox" required>
+            <label for="ok">J’accepte l’utilisation de mes données pour traiter ma candidature *</label>
+          </div>
+
+          <button type="submit">Envoyer</button>
+
+          <p>
+            Infos : <a href="cookies.html">Cookies</a> / <a href="mentions-legales.html">Mentions légales</a>
+          </p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 - Web4All</p>
+      <div class="footer-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
